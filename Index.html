@@ -1,25 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de Casas y Terrenos</title>
-    <link rel="stylesheet" type="text/css" href="Styles.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="styles.css" </head>
+
 <body>
     <header>
-        <h1>Bienvenido a nuestro catálogo de propiedades</h1>
+        <div class="logo">
+            <img src="images/Logo.jpeg" alt="Logo de ERP">
+            <span>INICIO</span>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">Buscar</a></li>
+                <li><a href="#">Publicar</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
+            </ul>
+        </div>
     </header>
-    
-    <nav>
-        <!-- Agrega enlaces de navegación aquí -->
-    </nav>
-    
+
     <main>
-        <!-- Contenido principal de tu catálogo, como listado de propiedades -->
+        <div class="card">
+            <img src="Images/Logo.jpeg" alt="Casa 1">
+            <div class="card-info">
+                <h2>Casa en venta</h2>
+                <p>Precio: $250,000</p>
+                <p>Lugar: Ciudad X</p>
+                <p>Tamaño: 3 dormitorios, 2 baños</p>
+                <a href="Detalles.html">Ver detalles</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="Images/Casa2.jpeg" alt="Casa 2">
+            <div class="card-info">
+                <h2>Casa en alquiler</h2>
+                <p>Precio: $1,200/mes</p>
+                <p>Lugar: Ciudad Y</p>
+                <p>Tamaño: 4 dormitorios, 3 baños</p>
+                <a href="detalle-casa-2.html">Ver detalles</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Images/Casa3.jpeg" alt="Casa 3">
+            <div class="card-info">
+                <h2>Casa en venta</h2>
+                <p>Precio: $280,000</p>
+                <p>Lugar: Ciudad Z</p>
+                <p>Tamaño: 4 dormitorios, 2 baños</p>
+                <a href="detalle-casa-3.html">Ver detalles</a>
+            </div>
+        </div>
+    
+        <!-- Agrega más tarjetas según tus necesidades -->
     </main>
     
+
+
     <footer>
-        <p>&copy; 2023 Tu Nombre</p>
+        <p>&copy; 2023 ERP | Explorador de Propiedades Residenciales</p>
     </footer>
 </body>
+
 </html>
